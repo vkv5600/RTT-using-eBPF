@@ -14,5 +14,4 @@
 	
 ### Multi staged RTT calculation at kernel space 
 
-	User plane code : 
-	Kernel plane code : 
+	Kernel plane code : ms_kernel_space_kernel.c
