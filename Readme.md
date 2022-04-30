@@ -39,3 +39,15 @@
 
 	cc <user_plane code> ../xdp-tutorial/libbpf/src/libbpf.a -lelf -lz
 	sudo ./a.out
+	
+### Shell script ##
+	
+#### To clean the interface of the hooked code: clean.sh ####
+	
+	Usage: ./clean.sh <interface>
+
+#### To compile, hook and run the code: compile.sh ####
+	Usage: ./compile.sh <interface> <eBPF_code>
+
+#### To remove the maps: map_clean.sh ####
+	Usage: ./map_clean.sh 
